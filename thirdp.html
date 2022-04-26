@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>SLOPE BALL GAME</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="app.js"></script>
+</head>
+
+<body class="light-theme">
+
+ <!--SLOPE OPTIONS CONTAINER -->
+	<div class="optionsContainer">
+		<div class="box002" ondrop="drop001(event)">
+      <img ondragstart="dragStart001(event)" draggable="true" id="target001" src="slope_one.jpg" alt="slope=1" width="150px" height="150px"> </div>
+		<div class="box002" ondrop="drop002(event)">
+      <img ondragstart="dragStart002(event)" draggable="true" id="target002" src="slope_neg_one.jpg" alt="slope=-1" width="150px" height="150px"> </div>
+		<div class="box002" ondrop="drop002(event)">
+      <img ondragstart="dragStart002(event)" draggable="true" id="target004" src="slope_negthreee.jpg" alt="slope=-3/8" width="150px" height="150px"> </div>
+
+       <!--RIGHT SLOPE OPTION-->
+      <div class="box002" ondrop="drop003(event)">
+      <img ondragstart="dragStart003(event)" draggable="true" id="target003" src="slope_fournine.jpg" alt="slope=four/nine" width="150px" height="150px"> </div>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+  <!--ONLY ACCEPTS THE RIGHT OPTION-->
+	<div class="box001" ondrop="drop008(event)" ondragover="allowDrop003(event)" id="place003"><img src="four_nine_temple.jpeg" alt="futboll template" width="300px" height="300px"></div>
+
+  <!--BUTTONS FOR CHANGING PAGES -->
+	<div class="buttonContainer">
+		<button onclick="location.href='index.html'"> 1 </button>
+		<button onclick="location.href='secondp.html'"> 2 </button>
+		<button onclick="location.href='thirdp.html'"> 3 </button>
+	</div>
+</body>
+
+</html>

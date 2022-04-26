@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.box001 {
+  display: inline-block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+.box002 {
+  display: inline-block;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+.optionsBox {
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  border: 1px solid black;
+}
+.optionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+button {
+  background-color: peachpuff;
+  margin: 10px;
+}
